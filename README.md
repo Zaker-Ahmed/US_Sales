@@ -4,15 +4,15 @@ Gaining insight through queries, KPIs and visualisations from data stored within
 ### Built with:
   -Languages
   
-    * SQL
+    - SQL
     
   -Tools
     
-    * Draw.io
-    * Excel
-    * Power Query
-    * SSMS
-    * SSIS
+    - Draw.io
+    - Excel
+    - Power Query
+    - SSMS
+    - SSIS
 
 ## The Aim
 Produce visualisations to provide insights for a business, so that they can analyse their performance and create more informed business decisons.
