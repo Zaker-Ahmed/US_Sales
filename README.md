@@ -6,7 +6,7 @@ Gaining insight through queries, KPIs and visualisations from data stored within
   
   - SQL
     
-* **Tools**
+* ####Tools
     
   - Draw.io
   - Excel
