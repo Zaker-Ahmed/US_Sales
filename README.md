@@ -14,6 +14,8 @@ Gaining insight through queries, KPIs and visualisations from data stored within
 - SSMS
 - SSIS
 
+___
+
 ## The Aim
 Produce visualisations to provide insights for a business, so that they can analyse their performance and create more informed business decisons.
 
