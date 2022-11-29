@@ -2,11 +2,11 @@
 Gaining insight through queries, KPIs and visualisations from data stored within a relational database that was created after data pre-processing, normalisation and data modelling.
 
 ### Built with:
-** * Languages
+* Languages
   
   - SQL
     
-** * Tools
+* Tools
     
   - Draw.io
   - Excel
