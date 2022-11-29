@@ -4,15 +4,15 @@ Gaining insight through queries, KPIs and visualisations from data stored within
 ### Built with:
 * Languages
   
-- SQL
+  - SQL
     
 * Tools
     
-- Draw.io
-- Excel
-- Power Query
-- SSMS
-- SSIS
+  - Draw.io
+  - Excel
+  - Power Query
+  - SSMS
+  - SSIS
 
 ___
 
