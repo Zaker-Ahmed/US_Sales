@@ -24,3 +24,4 @@ Produce visualisations to provide insights for a business, so that they can anal
 
 - What sales channel is the most profitable?
 
+- Does an increase in discount per unit postively impact the order quantitiy?
