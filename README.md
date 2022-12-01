@@ -28,6 +28,7 @@ Produce visualisations to provide insights for a business, so that they can anal
 
 ___
 <br/>
+
 ## The Process
 
 ### Data Cleaning
