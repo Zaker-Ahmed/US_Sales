@@ -27,8 +27,7 @@ Produce visualisations to provide insights for a business, so that they can anal
 - Does an increase in discount per unit postively impact the order quantitiy?
 
 ___
-
-
+/n
 ## The Process
 
 ### Data Cleaning
