@@ -1,7 +1,7 @@
 # US Sales Analysis
 Gaining insight through queries, KPIs and visualisations from data stored within a relational database that was created after data pre-processing, normalisation and data modelling.
 
-### Built with:
+### Tech Stack:
 * **Languages**
   
   - SQL
@@ -29,3 +29,5 @@ Produce visualisations to provide insights for a business, so that they can anal
 ___
 
 ## The Process
+
+### Data Cleaning
