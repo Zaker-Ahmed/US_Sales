@@ -217,7 +217,7 @@ ALTER TABLE SalesOrder NOCHECK CONSTRAINT FK_SalesOrder_Warehouse;
 ALTER TABLE Store NOCHECK CONSTRAINT FK_Store_City;
 
 --
---Disabling FK constraints for Store
+--Disabling FK constraints for City
 --
 
 ALTER TABLE City NOCHECK CONSTRAINT FK_City_AreaType;
