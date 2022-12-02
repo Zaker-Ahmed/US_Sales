@@ -49,6 +49,8 @@ Intially, I familiarised myself with the raw dataset and noticed multiple record
 
 #### Data Manipulation
 
+<br/>
+
 ### Data Storage
 
 ### Exploratory Data Analysis
