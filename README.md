@@ -53,6 +53,12 @@ Intially, I familiarised myself with the raw dataset and noticed multiple record
 
 ### Data Storage
 
+#### Databse Schema 
+
+#### Database optimisation 
+
+<br/>
+
 ### Exploratory Data Analysis
 
 
