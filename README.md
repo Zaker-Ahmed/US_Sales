@@ -47,6 +47,8 @@ This helped to deduce that the raw dataset depicts a company that operate on a B
 
 Intially, I familiarised myself with the raw dataset and noticed multiple records containing repeating values within columns such as: Sales Channel, Warehouse Code, City Name, County, Region, etc.
 
+#### Data Modelling
+
 #### Data Manipulation
 
 <br/>
