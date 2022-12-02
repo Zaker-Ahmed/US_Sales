@@ -32,6 +32,8 @@ ___
 
 ## The Process
 
+### Data Pre-Processing
+
 #### Thematic Analysis
 
 This was conducted to become familiar with the dataset, gain an understanding for the overall theme of the data, identify issues as well as aid with dictating the overall aim and objectives.  
