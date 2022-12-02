@@ -32,3 +32,5 @@ ___
 ## The Process
 
 ### Data Cleaning
+
+Intially, I familiriased myself with the raw dataset and noticed multiple records containing repeating values within columns such as: Sales Channel, Warehouse Code, City Name, County, Region, etc.
