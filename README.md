@@ -32,9 +32,10 @@ ___
 
 ## The Process
 
+<br/>
+
 ### Data Pre-Processing
 
-<br/>
 
 #### Thematic Analysis
 
