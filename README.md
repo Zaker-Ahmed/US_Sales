@@ -14,6 +14,7 @@ Gaining insight through queries, KPIs and visualisations from data stored within
   - SSMS
   - SSIS
 <br/>
+
 ___
 
 ## The Aim
