@@ -37,9 +37,9 @@ ___
 ### Data Pre-Processing
 
 
-#### Thematic Analysis
+#### >Thematic Analysis
 
-This was conducted to become familiar with the dataset, gain an understanding for the overall theme of the data, identify issues as well as aid with dictating the overall aim and objectives.  
+>This was conducted to become familiar with the dataset, gain an understanding for the overall theme of the data, identify issues as well as aid with dictating the >overall aim and objectives.  
 
 This helped to deduce that the raw dataset depicts a company that operate on a B2B scheme within the US. Conducting this also displayed that the dataset is currently  contained within a star-schema but still contains repeating values and irrelevant data. Meaning, normalisation will be required to relinquish these data quality issues, which will result in a snowflake schema.
 
