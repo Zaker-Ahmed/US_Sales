@@ -13,7 +13,7 @@ Gaining insight through queries, KPIs and visualisations from data stored within
   - Power Query
   - SSMS
   - SSIS
-
+<br/>
 ___
 
 ## The Aim
