@@ -36,7 +36,7 @@ ___
 
 This was conducted to become familiar with the dataset, gain an understanding for the overall theme of the data, identify issues as well as aid with dictating the overall aim and objectives.  
 
-This helped to deduce that the dataset depicts a company that operate on a B2B scheme within the US. 
+This helped to deduce that the raw dataset depicts a company that operate on a B2B scheme within the US. 
 
 ### Data Cleaning
 
