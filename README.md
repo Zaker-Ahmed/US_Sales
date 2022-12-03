@@ -49,7 +49,7 @@ Intially, I familiarised myself with the raw dataset and noticed multiple record
 
 #### Data Manipulation
 
-This step allowed more data to be extracted from the original raw dataset, where the columns Discount Applied, Unit Price and Unit Cost helped were manipulated by creating calcualtions between themselves to generate the columns TotalCost, GrossRevenue and NetRevenue within the US_Sales_Data_Cleaned.xlsx file.
+This step allowed more data to be extracted from the original raw dataset, where the columns Discount Applied, Unit Price and Unit Cost from the US_Sales_Data_Dirty.xlsx were manipulated by creating calcualtions between themselves to generate the columns TotalCost, GrossRevenue and NetRevenue within the US_Sales_Data_Cleaned.xlsx file.
 
 #### Data Modelling
 
