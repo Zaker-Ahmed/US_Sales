@@ -47,8 +47,6 @@ This helped to deduce that the raw dataset depicts a company that operate on a B
 
 During the thematic analysis various issues with the dataset became apparent. There were issues such as repeating values, irrelevant values, incorrect formatting and transitive dependencies.
 
-Intially, I familiarised myself with the raw dataset and noticed multiple records containing repeating values within columns such as: Sales Channel, Warehouse Code, City Name, County, Region, etc.
-
 #### Data Manipulation
 
 This step allowed more data to be extracted from the original raw dataset, where the columns Discount Applied, Unit Price and Unit Cost from the US_Sales_Data_Dirty.xlsx were manipulated by creating calcualtions between themselves to generate the columns TotalCost, GrossRevenue and NetRevenue within the US_Sales_Data_Cleaned.xlsx file.
