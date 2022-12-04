@@ -45,6 +45,8 @@ This helped to deduce that the raw dataset depicts a company that operate on a B
 
 #### Data Cleaning
 
+During the thematic analysis various issues with the dataset became apparent. There were issues such as repeating values, irrelevant values, incorrect formatting and transitive dependencies.
+
 Intially, I familiarised myself with the raw dataset and noticed multiple records containing repeating values within columns such as: Sales Channel, Warehouse Code, City Name, County, Region, etc.
 
 #### Data Manipulation
