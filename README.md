@@ -60,7 +60,9 @@ This step allowed more data to be extracted from the original raw dataset, where
 
 #### Databse Schema 
 
-#### Database optimisation 
+#### Database Optimisation 
+
+#### Database Views
 
 <br/>
 
