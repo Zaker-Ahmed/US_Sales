@@ -4,7 +4,6 @@
 --SSIS was used to create an ETL package to dump data from the cleaned Excel file (US_Sales_Data_Cleaned.xlsx)
 --into each table, whilst adhering to the schema within the US_Sales DB
 
-
 USE US_Sales;
 
 --Re-enabling FK's to maintain referential integrity
