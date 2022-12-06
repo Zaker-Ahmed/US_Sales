@@ -5,7 +5,6 @@
 --into each table, whilst adhering to the schema within the US_Sales DB
 
 
-
 USE US_Sales;
 
 --Re-enabling FK's to maintain referential integrity
