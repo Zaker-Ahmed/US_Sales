@@ -6,6 +6,8 @@
 
 USE US_Sales;
 
+GO
+
 --Re-enabling FK's to maintain referential integrity
 
 --
