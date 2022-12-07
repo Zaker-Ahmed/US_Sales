@@ -27,7 +27,7 @@ Produce visualisations to provide insights for a business, so that they can anal
 
 - What are the top performing products?
 
-- Which stores locations have the highest conversion rate?
+- Which store locations have the highest sales conversions?
 
 - Do higher discounts result in an increase to the average order quantitiy?
 <br/>
