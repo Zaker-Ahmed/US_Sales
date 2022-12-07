@@ -25,6 +25,8 @@ Produce visualisations to provide insights for a business, so that they can anal
 
 - What sales channel is the most profitable?
 
+- What are the top performing products?
+
 - Do higher discounts result in an increase to the average order quantitiy?
 <br/>
 
