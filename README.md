@@ -65,6 +65,7 @@ This step allowed more data to be extracted from the original raw dataset, where
 #### Databse Schema 
 
 #### ETL
+source, destination and data mapping
 
 #### Database Optimisation 
 
