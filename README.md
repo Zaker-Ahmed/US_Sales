@@ -49,7 +49,7 @@ This helped to deduce that the raw dataset depicts a company that operate on a B
 
 #### Data Cleaning
 
-Due to the thematic analysis, issues such as irrelevant data, repeating data, incorrect formatting and transitive dependancies had become apparent. 
+Due to the thematic analysis, issues such as irrelevant data, repeating data, incorrect formatting and transitive dependencies had become apparent. 
 
 #### Data Manipulation
 
