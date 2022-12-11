@@ -43,26 +43,27 @@ ORDER BY Net_Revenue DESC;
 --
 
 SELECT TOP 10 Product, 
-COUNT(Product) AS Product_Quantity_Sold
+COUNT(Product) AS Product_Unique_Orders,
+SUM(Order_Quantity) AS Product_Quantity_Sold
 FROM VIEW_Sales_Order_Sheet
 GROUP BY Product
-ORDER BY Product_Quantity_Sold DESC;
+ORDER BY Product_Unique_Orders DESC, Product_Quantity_Sold DESC;
 
 /*
-|------------------|-----------------------|
-| Product          | Product_Quantity_Sold |
-|------------------|-----------------------|
-| Platters         | 200                   |
-| Serveware        | 200                   |
-| Cocktail Glasses | 195                   |
-| Accessories      | 194                   |
-| Wreaths          | 190                   |
-| Rugs             | 184                   |
-| Wardrobes        | 183                   |
-| Ornaments        | 182                   |
-| Sculptures       | 182                   |
-| Dining Furniture | 181                   |
-|------------------|-----------------------|
+|------------------|-----------------------|-----------------------|
+| Product          | Product_Unique_Orders | Product_Quantity_Sold |
+|------------------|-----------------------|-----------------------|
+| Platters         | 200                   | 896                   |
+| Serveware        | 200                   | 878                   |
+| Cocktail Glasses | 195                   | 879                   |
+| Accessories      | 194                   | 956                   |
+| Wreaths          | 190                   | 830                   |
+| Rugs             | 184                   | 855                   |
+| Wardrobes        | 183                   | 832                   |
+| Ornaments        | 182                   | 817                   |
+| Sculptures       | 182                   | 814                   |
+| Dining Furniture | 181                   | 827                   |
+|------------------|-----------------------|-----------------------|
 */
 
 
@@ -72,26 +73,27 @@ ORDER BY Product_Quantity_Sold DESC;
 --
 
 SELECT TOP 10 Product, 
-COUNT(Product) AS Product_Quantity_Sold
+COUNT(Product) AS Product_Unique_Orders,
+SUM(Order_Quantity) AS Product_Quantity_Sold
 FROM VIEW_Sales_Order_Sheet
 GROUP BY Product
-ORDER BY Product_Quantity_Sold ASC;
+ORDER BY Product_Unique_Orders ASC, Product_Quantity_Sold ASC;
 
 /*
-|-------------------|-----------------------|
-| Product           | Product_Quantity_Sold |
-|-------------------|-----------------------|
-| Pillows           | 126                   |
-| Vases             | 145                   |
-| Bean Bags         | 147                   |
-| Bedroom Furniture | 152                   |
-| Audio             | 152                   |
-| Computers         | 154                   |
-| Basketball        | 156                   |
-| Wall Coverings    | 156                   |
-| Outdoor Furniture | 157                   |
-| Candles           | 158                   |
-|-------------------|-----------------------|
+|-------------------|-----------------------|-----------------------|
+| Product           | Product_Unique_Orders | Product_Quantity_Sold |
+|-------------------|-----------------------|-----------------------|
+| Pillows           | 126                   | 585                   |
+| Vases             | 145                   | 660                   |
+| Bean Bags         | 147                   | 652                   |
+| Bedroom Furniture | 152                   | 635                   |
+| Audio             | 152                   | 680                   |
+| Computers         | 154                   | 663                   |
+| Basketball        | 156                   | 644                   |
+| Wall Coverings    | 156                   | 656                   |
+| Outdoor Furniture | 157                   | 658                   |
+| Candles           | 158                   | 723                   |
+|-------------------|-----------------------|-----------------------|
 */
 
 
