@@ -61,7 +61,7 @@ ON SalesOrder (OrderNumber ASC);
 GO
 
 --
---CREATE VIEW 
+--CREATING VIEW 
 --
 
 CREATE VIEW VIEW_Sales_Order_Sheet
