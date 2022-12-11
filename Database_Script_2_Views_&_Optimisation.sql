@@ -4,9 +4,9 @@
 --SSIS was used to create an ETL package to dump data from the cleaned Excel file (US_Sales_Data_Cleaned.xlsx)
 --into each table, whilst adhering to the schema within the US_Sales DB
 
-USE US_Sales;
 
-GO
+
+USE US_Sales;
 
 --Re-enabling FK's to maintain referential integrity
 
@@ -55,11 +55,8 @@ ALTER TABLE SalesTeam WITH CHECK CHECK CONSTRAINT FK_SalesTeam_SalesRegion;
 
 GO
 
-CREATE INDEX IDX_SalesOrder_OrderNumber_Search
+CREATE CLUSTERED INDEX IDX_SalesOrder_OrderNumber_Search
 ON SalesOrder (OrderNumber ASC); 
-
-CREATE INDEX IDX_SalesOrder_OrderDate_Search
-ON SalesOrder (OrderDate DESC);
 
 GO
 
@@ -67,7 +64,9 @@ GO
 --CREATE VIEW 
 --
 
-CREATE VIEW Sales_Order_Sheet AS
+CREATE VIEW VIEW_Sales_Order_Sheet
+WITH SCHEMABINDING
+AS
 SELECT SO.OrderNumber AS Order_Number,
 CSTMR.CustomerName AS Customer,
 ST.SalesTeam AS Sales_Team_Manager,
@@ -90,26 +89,26 @@ SO.DiscountPerUnit AS Discount_Per_Unit,
 SO.TotalCost AS Total_Cost,
 SO.GrossRevenue AS Gross_Revenue,
 SO.NetRevenue AS Net_Revenue
-FROM SalesOrder AS SO
-LEFT JOIN Product AS P
+FROM dbo.SalesOrder AS SO
+LEFT JOIN dbo.Product AS P
 ON SO.ProductID = P.ProductID
-LEFT JOIN Customer AS CSTMR
+LEFT JOIN dbo.Customer AS CSTMR
 ON SO.CustomerID = CSTMR.CustomerID
-LEFT JOIN SalesTeam AS ST
+LEFT JOIN dbo.SalesTeam AS ST
 ON SO.SalesTeamID = ST.SalesTeamID
-LEFT JOIN SalesRegion AS SR
+LEFT JOIN dbo.SalesRegion AS SR
 ON ST.SalesRegionID = SR.SalesRegionID
-LEFT JOIN SalesChannel AS SC
+LEFT JOIN dbo.SalesChannel AS SC
 ON ST.SalesChannelID = SC.SalesChannelID
-LEFT JOIN Store AS S
+LEFT JOIN dbo.Store AS S
 ON SO.StoreID = S.StoreID
-LEFT JOIN City AS C
+LEFT JOIN dbo.City AS C
 ON S.CityID = C.CityID
-LEFT JOIN County AS CNTY
+LEFT JOIN dbo.County AS CNTY
 ON C.CountyID = CNTY.CountyID
-LEFT JOIN States AS STTS
+LEFT JOIN dbo.States AS STTS
 ON CNTY.StateID = STTS.StateID
-LEFT JOIN AreaType AS AREAT
+LEFT JOIN dbo.AreaType AS AREAT
 ON C.AreaTypeID = AREAT.AreaTypeID
 ;
 
