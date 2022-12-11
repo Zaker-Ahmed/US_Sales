@@ -114,12 +114,12 @@ ORDER BY City_Net_Revenue DESC;
 | Columbia     | 247809.09        |
 | Richmond     | 216021.73        |
 | Rochester    | 212053.42        |
-| Warren       | 196691.40		  |
-| Wayne        | 196336.16		  |
-| Broken Arrow | 196027.62		  |
-| Arlington    | 184371.82		  |
-| Aurora       | 174426.52		  |
-| Hollywood    | 170216.46		  |
+| Warren       | 196691.40		    |
+| Wayne        | 196336.16		    |
+| Broken Arrow | 196027.62		    |
+| Arlington    | 184371.82		    |
+| Aurora       | 174426.52		    |
+| Hollywood    | 170216.46		    |
 |--------------|------------------|
 */
 
@@ -143,12 +143,12 @@ ORDER BY State_Net_Revenue DESC;
 | Texas          | 2956349.50        |
 | Illinois       | 2627265.88        |
 | Florida        | 2167262.46        |
-| Colorado       | 1772840.67	     |
-| Indiana        | 1222118.60		 |
-| Arizona        | 1041353.13		 |
-| New York       | 905024.83	     |
-| North Carolina | 820274.97	     |
-| Hollywood      | 777108.48	     |
+| Colorado       | 1772840.67	       |
+| Indiana        | 1222118.60		     |
+| Arizona        | 1041353.13		     |
+| New York       | 905024.83	       |
+| North Carolina | 820274.97	       |
+| Hollywood      | 777108.48	       |
 |----------------|-------------------|
 */
 
@@ -169,16 +169,16 @@ ORDER BY Total_Sales_Secured DESC, Total_Units_Sold DESC;
 |--------------------|---------------------|------------------|
 | Sales_Team_Manager | Total_Sales_Secured | Total_Units_Sold |
 |--------------------|---------------------|------------------|
-| Todd Roberts		 | 340				   | 1474			  |
-| Shawn Wallace		 | 316				   | 1476			  |
-| George Lewis		 | 315				   | 1409			  |
-| Carl Nguyen		 | 314				   | 1393			  |
-| Shawn Cook		 | 303				   | 1306			  |
-| Adam Hernandez     | 302				   | 1366			  |
-| Anthony Berry		 | 298				   | 1337			  |
-| Donald Reynolds	 | 296				   | 1391			  |
-| Samuel Fowler		 | 296				   | 1388			  |
-| Jerry Green		 | 296				   | 1371			  |
+| Todd Roberts		   | 340				         | 1474			        |
+| Shawn Wallace		   | 316				         | 1476			        |
+| George Lewis		   | 315				         | 1409			        |
+| Carl Nguyen		     | 314				         | 1393			        |
+| Shawn Cook		     | 303				         | 1306			        |
+| Adam Hernandez     | 302				         | 1366			        |
+| Anthony Berry		   | 298				         | 1337			        |
+| Donald Reynolds	   | 296				         | 1391			        |
+| Samuel Fowler		   | 296				         | 1388			        |
+| Jerry Green		     | 296				         | 1371			        |
 |--------------------|---------------------|------------------|
 */
 
