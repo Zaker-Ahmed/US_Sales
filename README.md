@@ -71,6 +71,8 @@ source, destination and data mapping
 
 #### Database Optimisation 
 
+Clustered index
+
 #### Database Views
 
 <br/>
