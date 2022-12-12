@@ -13,6 +13,7 @@ Gaining insight through queries, KPIs and visualisations from data stored within
   - Power Query
   - SSMS
   - SSIS
+  - Power BI
 <br/>
 
 ___
