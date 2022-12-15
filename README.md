@@ -65,7 +65,7 @@ This step allowed more data to be extracted from the original raw dataset, where
 
 ### Data Storage
 
-#### Databse Schema 
+<center> #### Databse Schema </center>
 
 The database schema was created based on the data models within the data models folder. This is essential because future sales will generate more data that will require storage space, so having a database with an already existing schema makes storing future data easier. This also helps with automating data mapping, data dumps and the ETL process. 
 
