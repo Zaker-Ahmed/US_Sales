@@ -67,6 +67,16 @@ This step allowed more data to be extracted from the original raw dataset, where
 
 #### Databse Schema 
 
+The database schema was created based on the data models within the data models folder. This is essential because future sales will generate more data that will require storage space, so having a database with an already existing schema makes storing future data easier. This also helps with automating data mapping, data dumps and the ETL process. 
+
+The schema allows constraints to be applied which can reduce issues and increase data accuracy and ensure the data quality is of the highest quality, which means improved accuracy in terms of data analysis which will inform and influence business decisions. 
+
+Constraints were declared through DDL, within the Database_1_Schema file, to set character limits and only allow certain columns to accept the declared data type. The primary and foreign key are essential within relational databases because they uphold the relational integrity and consistency between tables. The primary key column is what uniquely identifies each record, but the unique key constraint wasn't declared within the file because it is automatically applied when declaring a primary key. 
+
+The command ON DELETE CASCADE was on the foreign key for related tables that cannot exist without the parent table. For example, there is no point in storing data related stores within a city if the business no longer operates within that state, in which case this command will delete child tables/irrelevant data. ON DELETE SET NULL was used where data may no longer be required but shouldn't warrant the removal of related records entirely, in which case it will only set the referenced field to NULL. This was applied to the SalesTeam table. 
+
+The implementation of further restrictions with the use of complex RegEx through a check constraint wasn't applied because MS SQL Server doesn't facilitate it, unlike Oracle.
+
 #### ETL
 source, destination and data mapping
 
