@@ -79,6 +79,7 @@ The implementation of further restrictions with the use of complex RegEx through
 
 #### ETL
 source, destination and data mapping
+SSIS was used as an ETL tool to extract the data within the US_Sales_Data_Cleaned file to then map the columns to the corresponding columns found within the tables established in the Database_Script_1_Schema file. The ETL process was made much easier by disbaling check constraints which would cause errors when dumping data due to table references and parent/child relationships. Though, this was only after constraints were already tested. They check constraints were also re-enabled after all data had been loaded.
 
 #### Database Optimisation 
 
