@@ -87,7 +87,7 @@ Clustered index
 
 #### Database Views
 
-Views can be used to reduce the data someone can view/has access to, save time taken to re-type long queries, save query time in terms of displaying the results and can help in removing unnecessary columns which can make the query output more readable. In this case it was used only display the necessary data and remove columns such as IDs from being displayed. The view created in the Database_Script_2_Views_&_Optimisation.sql file also helps with spotting trends and aids with preparing the necessary data that will be used in Power BI.
+Views can be used to reduce the data someone can view/has access to, save time taken to re-type long queries, save query time in terms of displaying the results and can help in removing unnecessary columns which can make the query output more readable. In this case it was used to combine data from various tables and display the necessary columns whilst removing columns such as IDs from being displayed. The view created in the Database_Script_2_Views_&_Optimisation.sql file also helps with spotting trends and aids with preparing the necessary data that will be used in Power BI.
 
 <br/>
 
